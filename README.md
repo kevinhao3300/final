@@ -11,7 +11,7 @@ image_letters.py provides the conversion from WordBubbles puzzle image into the 
 
 wb_0000#.jpg are some WordBubbles screenshots. wb_00002 is a 2x2 board, and the rest are 7x7 boards (provided by WordBubble's weekly challenges).
 
-wordB.py is the actual Python source code that converts matrix of characters into possible solutions.
+wordB.py is the actual Python source code that converts matrix of characters into possible solutions. We can always scrap this and redo it as a group; this is BACKUP ONLY in case we run out of time.
 
 wordB.in / wordB.out are input / output. You paste the puzzle you want into wordB.in. wordB.out will show some informative information. The actual solution it finds is printed into standard out. Some examples of puzzles are found at the bottom of wordB.py (copy-paste into wordB.in)
 

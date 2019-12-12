@@ -179,7 +179,7 @@ def recurseAll(board, count, lens_map, lens_list, index, temp, result):
         result.append(temp2)
         return
     
-
+    
     #print("temp =", temp)
     # avoid permutations of words by getting the index of last one, and starting from there rather than from 0
     word_arr = lens_list[index]

@@ -1,11 +1,13 @@
 # Word Popper
 
-## Problem
+## Group Members
+Kevin Hao
+Aditi Jain
+Brian Wang
+Jesse Zou
+
+## Objective
 We are given a picture of a puzzle from WordBubbles!. This image contains a two-dimensional grid of english characters and blanks. There is also several rows of empty blanks that represent the lengths of the desired words. We have to find a set of english words with these specified lengths such that each english word can be "found" in the matrix, and every character in the matrix is used exactly once. An english word can be found in the matrix when every letter in the word is in the board, and every letter is adjancent to its neighbors in one of the eight directions.
-
-## Solution
-
-
 
 ## Files
 solve.py - Python script to take in an image and output all possible sets of answers and their orientations.
@@ -22,4 +24,4 @@ Run this to check dependencies:
 To run the program:
 `python3 solve.py <image_name>`
 
-	ex. `python3 solve.py IMG_01`
+ex. `python3 solve.py IMG_01`

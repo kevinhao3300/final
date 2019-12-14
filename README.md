@@ -21,4 +21,5 @@ Run this to check dependencies:
 
 To run the program:
 `python3 solve.py <image_name>`
+
 ex. `python3 solve.py IMG_01`
